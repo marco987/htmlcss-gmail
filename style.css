@@ -1,4 +1,74 @@
-* {
+@import url('https://fonts.googleapis.com/css?family=Macondo+Swash+Caps&display=swap');
+
+body {
+  background-image: url("immagini/img.png");
+  background-size: cover;
+  font-family: Macondo Swash Caps, arial;
+}
+
+.intestazione {
+  text-align: left;
+  width: 800px;
+  padding: 0px 0px;
+  margin: 0 auto;
+}
+
+input {
+  margin: 0px 5px;
+}
+
+h1 {
+  display: inline-block;
+  color: #fff;
+  font-weight: normal;
+}
+
+h3 {
+  display: inline-block;
+  color: #fff;
+  font-weight: normal;
+}
+
+#conta {
+  font-weight: bold;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 100px;
+  padding: 5px;
+  background-color: #00ffff;
+  color: #000;
+  margin: 0px 0px;
+}
+
+.contatore {
+  margin: -10px 0px;
+}
+
+.linee {
+  border-top: solid #fff 2px;
+  border-bottom: solid #fff 2px;
+  width: 800px;
+  padding: 10px 0px;
+  margin: 0 auto;
+}
+
+.riga {
+  border: solid #fff 1px;
   margin: 0;
-  padding: 0;
+  padding: 2px 0px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  display: inline-block;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.foot {
+  font-size: 40px;
 }
